@@ -99,7 +99,7 @@ FHitResult UGrabber::GetFirstPhysicsBodyInReach()
 		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
 		TraceParams
 	);
-
+	// this should be removed - test
 	// See what it hits
 	AActor* ActorHit = Hit.GetActor();
 	if (ActorHit)
