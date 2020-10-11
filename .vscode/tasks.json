@@ -1,0 +1,995 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Building_escape Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Shipping",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Shipping",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Shipping",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Test",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Test",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"Mac",
+				"Test",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Shipping",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Shipping",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Shipping",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Test",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Test",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"IOS",
+				"Test",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Shipping",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Shipping",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Shipping",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Test",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Test",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escape HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escape HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escape",
+				"HTML5",
+				"Test",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escapeEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escapeEditor",
+				"Mac",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escapeEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escapeEditor",
+				"Mac",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escapeEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escapeEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escapeEditor",
+				"Mac",
+				"Debug",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escapeEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escapeEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escapeEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escapeEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escapeEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escapeEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escapeEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escapeEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escapeEditor",
+				"Mac",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escapeEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escapeEditor",
+				"Mac",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_escapeEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		},
+		{
+			"label": "Building_escapeEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Building_escapeEditor",
+				"Mac",
+				"Development",
+				"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Building_escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.22"
+			}
+		}
+	]
+}

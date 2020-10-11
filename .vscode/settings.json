@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"/Users/alicepearse/Documents/Unreal Projects/Building_escape/.vscode": true,
+		"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Content": true,
+		"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Intermediate": true,
+		"/Users/alicepearse/Documents/Unreal Projects/Building_escape/Saved": true
+	}
+}
