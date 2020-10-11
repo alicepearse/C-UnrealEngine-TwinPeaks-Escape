@@ -1,9 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Engine/World.h"
-#include "GameFramework/PlayerController.h"
 #include "DoorOpen.h"
+#include "Engine/World.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/PlayerController.h"
 
 // Sets default values for this component's properties
 UDoorOpen::UDoorOpen()
